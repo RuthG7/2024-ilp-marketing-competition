@@ -28,6 +28,15 @@ body::-webkit-scrollbar {
   width: 10px; /* width of the entire scrollbar */
 }
 
+div::-webkit-scrollbar {
+  display: none;
+}
+
+div {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 body::-webkit-scrollbar-track {
   background: #333; /* color of the tracking area */
 }

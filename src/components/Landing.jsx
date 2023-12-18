@@ -9,7 +9,7 @@ export default function SamsungMarketingContent() {
     'The grand prize? A Google mentorship!',
   ];
   const TextElement = ({ children }) => (
-    <p className="text-white-400 text-left m-3 font-palanquin text-lg">{children}</p>
+    <p className="text-white-400 text-left m-3 font-palanquin text-xl leading-relaxed">{children}</p>
   );
 
   return (
@@ -30,14 +30,14 @@ export default function SamsungMarketingContent() {
   </h1>
 </section>
     
-<main className="container px-6 py-8 bg-gray-900 bg-opacity-50 mt-8 max-w-4xl">
+<main className="container px-6 py-8 bg-gray-900 bg-opacity-50 m-8 max-w-4xl">
   <h1 className="text-white-400 mb-3 text-left font-palanquin text-xl leading-relaxed">Introducing the Samsung Marketing Case Competition for college students of all majors.</h1>
   <ul className="text-white-400 pl-5 list-disc space-y-3 text-left text-lg font-palanquin leading-relaxed">
     {listItems.map((item, index) => <li key={index} className="text-xl leading-relaxed">{item}</li>)}
   </ul>
-  <TextElement className="text-xl leading-relaxed">Registration will be open until July 23rd (11:59 PM ET) via the Google Form link below. Remember, if you are selected as a semi-finalist and then finalist you must present live in person in NYC!</TextElement>
+  <TextElement >Registration will be open until July 23rd (11:59 PM ET) via the Google Form link below. Remember, if you are selected as a semi-finalist and then finalist you must present live in person in NYC!</TextElement>
  
-  <TextElement className="text-xl leading-relaxed">Once registered, you'll receive a detailed brief to ideate against. Don't miss out on this opportunity to flex your talent.</TextElement>
+  <TextElement>Once registered, you'll receive a detailed brief to ideate against. Don't miss out on this opportunity to flex your talent.</TextElement>
   
   <div className="grid gap-8 items-start justify-start mt-9">
     <div className="relative group">
@@ -46,9 +46,12 @@ export default function SamsungMarketingContent() {
     </div>
   </div>
   <div className="mt-8">
-    <TextElement className="text-xl leading-relaxed">We appreciate your interest in this program, but registration closed at 11:59 ET on July 23rd.</TextElement>
+    <TextElement >We appreciate your interest in this program, but registration closed at 11:59 ET on July 23rd.</TextElement>
   </div>
 </main>
+
+
+
 
 
     </div>
