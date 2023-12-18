@@ -26,7 +26,8 @@ export default function RegistrationForm() {
 `;
 
   return (
-    <div className="text-white">
+    
+    <div className="text-black">
       <>
       <h1>Registration Form</h1>
       <div dangerouslySetInnerHTML={{ __html: mailchimpFormCode }} />
@@ -34,5 +35,6 @@ export default function RegistrationForm() {
       
      
     </div>
+    
   )
 }
