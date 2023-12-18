@@ -31,7 +31,9 @@ export default {
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
-  
+      backgroundImage: {
+        'hero': "url('assets/background.png')",
+      },
       screens: {
         "wide": "1440px"
       }

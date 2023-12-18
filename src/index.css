@@ -12,6 +12,18 @@
   scroll-behavior: smooth;
 }
 
+.landing-page {
+  @apply bg-hero;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
 body::-webkit-scrollbar {
   width: 10px; /* width of the entire scrollbar */
 }

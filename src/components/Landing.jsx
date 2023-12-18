@@ -10,7 +10,7 @@ export default function SamsungMarketingContent() {
   ];
 
   return (
-    <>
+    <div className="landing-page">
 <div className="relative container mx-auto mt-8">
         <div className="flex items-center justify-between">
             <div className="">
@@ -40,6 +40,6 @@ export default function SamsungMarketingContent() {
           <p className="text-white-400 mb-3 text-left font-palanquin">We appreciate your interest in this program, but registration closed at 11:59 ET on July 23rd.</p>
         </div>
       </main>
-    </>
+    </div>
   );
 }
