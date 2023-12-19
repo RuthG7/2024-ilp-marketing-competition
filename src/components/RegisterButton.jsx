@@ -12,7 +12,7 @@ export function RegisterButton() {
       <span className="flex items-center space-x-5">
         <SVGIcon />
       </span>
-      <span className=" pl-4 text-indigo-400 group-hover:text-gray-100 transition duration-200">Register &rarr;</span>
+      <span className=" pl-4 text-white group-hover:text-gray-400 transition duration-200">Register &rarr;</span>
     </button>
     </Link>
   );
