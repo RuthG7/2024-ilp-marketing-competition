@@ -8,7 +8,7 @@ export function RegisterButton() {
 
   return (
     <Link to="/register">
-    <button className="relative px-7 py-3 bg-black rounded-lg leading-none flex items-center">
+    <button className="relative px-7 py-3 bg-black rounded-lg leading-none flex items-center" disabled>
       <span className="flex items-center space-x-5">
         <SVGIcon />
       </span>
