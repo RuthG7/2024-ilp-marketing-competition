@@ -3,7 +3,7 @@ import Header from './Header';
 
 export default function Rules() {
   return (
-    <div className="landing-page">
+    <div>
     <Header />
     <main className="container px-6 py-8 bg-gray-900 bg-opacity-50 md:m-8 max-w-6xl text-white-400">
     <h4>Samsung Galaxy Marketing Case Competition</h4>
@@ -57,8 +57,18 @@ export default function Rules() {
 
 <p>Three (3) Finalists will be determined by different Judges based on the Presentation Judging Criteria on or around 6:00 p.m. ET on August 17, 2023. Any tied Semi-Finalists will be rejudged by the judges based 100% on Semi-Finalist Presentation quality to determine the applicable Finalist.</p>
 <p>Finalists will then be required to re-present their Semi-Finalist Submissions in person for a final judging at a live event hosted at the Samsung Galaxy Experience Space in Herald Towers at 50 W. 34th St., New York, NY 10001, on August 18, 2023 beginning at approximately 1:00 p.m. ET (the “Finalist Presentation”). Each Finalist (in the order determined by Sponsor) will have fifteen (15) minutes to conduct their Finalist Presentation in front of a new Sponsor-selected panel of judges and a live audience. Finalist Presentations will then be judged based on the Presentation Judging Criteria to determine one (1) Grand Prize winner following the live event.</p>
+<p>All three (3) Finalists will each receive a Finalist Prize, subject to verification. The Finalist ranked First will also win the Grand Prize, subject to verification. Sponsor reserves the right to videotape and/or record/photograph the Semi-Finalist/Finalist Presentations and live events (“footage”), in their sole discretion and use such footage (or portions of the footage) as they see fit. Any tied Finalists will be rejudged by the judges based 100% on the Presentation Quality to determine the Grand Prize winner. Judges' decisions are final with respect to all matters relating to the Contest. By participating, Entrants agree to the Official Rules and the decisions of the Judges, which shall be final and binding in all respects. Entrant must be present at Semi-Finalist Presentations/Finalist Presentation (as applicable) at the time/location specified by Sponsor in order to be eligible.</p>
 
-  <li>Execution (Use of Media, Impact, Creative): 33%</li>
+
+  <li>Round 1 Entry/Semi-Finalist Submission Requirements: Sponsor has the sole discretion to determine whether a Round 1 Entry/Semi-Finalist Submission is eligible. All Round 1 Entries/Semi-Finalist Submissions must be the sole, original work of the Entrant. Round 1 Entries/Semi-Finalist Submissions become the property of the Sponsor and will not be acknowledged or returned. Entrants, Semi-Finalists, Finalists, and Grand Prize winner acknowledge and agree that their Round 1 Entries/Semi-Finalist Submissions become the property of the Sponsor, which thereby has the right to edit, adapt, modify, reproduce, promote and otherwise use Round 1 Entries/Semi-Finalist Submissions in any way it sees fit. Automated, script, macro or robotic Round 1 Entries/Semi-Finalist Submissions submitted by individuals or organizations will be disqualified. Round 1 Entries/Semi-Finalist Submissions must be in keeping with Sponsor's image and may not be offensive, as determined by Sponsor in its sole discretion, nor can it defame or invade publicity rights or privacy rights of any person, living or deceased, or otherwise infringe upon any person's personal or proprietary rights. Any Round 1 Entry/Semi-Finalist Submission not in compliance with the above and does not meet the Contest requirements will be disqualified. By entering, you agree to waive any rights you may have to the Round 1 Entry/Semi-Finalist Submission submitted.</li>
+<li>Prizes and Approximate Retail Values (“ARVs”):</li>
+<ol className='custom-list list-inside text-left pl-4'>
+  <li>Grand Prize (1): A 3-month mentorship with a Sponsor/Google-selected Google executive, including three (3) thirty-minute video conferences with the executive and one (1) “day in the life of a Googler” tour at the Google office in either Mountain View, CA or New York, NY (as mutually agreed upon between Google/winner). Transportation to/from Google office and accommodations not included. There is no retail value associated with the Grand Prize. Timing of Grand Prize is at the Sponsor/Google's discretion.</li>
+  <li>Finalist Prize (3 total): Sponsor-selected Samsung Products and a one (1) year LinkedIn Premium membership (ARV: $2,600 each).</li>
+  <li>Semi-Finalist Prize (20 total): Samsung Galaxy Buds2 Pro and one (1) ticket to a Sponsor-selected concert on August 19, 2023, at Samsung Galaxy Experience Space, Herald Towers, 50 W. 34th St., New York, NY 10001 (ARV: $229.99 each). Transportation and accommodations are not included with prize. Concert ticket must be used on date specified.</li>
+</ol>
+<p>Prizes are awarded “as is” with no warranty or guarantee, either express or implied by Sponsor. Prizes are not transferable. All other expenses and costs not expressly listed above are the winners' sole responsibility. All federal, state and local taxes are the sole responsibility of winner, if applicable.</p>
+
 </ol>
 
     </main>
