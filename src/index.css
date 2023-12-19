@@ -23,7 +23,12 @@
   padding: 0;
   overflow: auto;
 }
-
+.custom-list {
+  list-style-type: lower-alpha;
+}
+.custom-list-roman {
+  list-style-type: lower-roman;
+}
 body::-webkit-scrollbar {
   width: 10px; /* width of the entire scrollbar */
 }
