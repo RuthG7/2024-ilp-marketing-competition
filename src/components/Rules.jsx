@@ -5,7 +5,7 @@ export default function Rules() {
   return (
     <div className="landing-page">
     <Header />
-    <main className="container px-6 py-8 bg-gray-900 bg-opacity-50 m-8 max-w-4xl">
+    <main className="container px-6 py-8 bg-gray-900 bg-opacity-50 md:m-8 max-w-4xl">
       <h1 className="text-white-400 mb-3 text-left font-palanquin text-xl leading-relaxed">Samsung Galaxy Marketing Case Competition</h1>
       <p className="text-white-400 text-left m-3 font-palanquin text-xl leading-relaxed">
       NO PURCHASE NECESSARY. OPEN ONLY TO LEGAL RESIDENTS OF THE 50 UNITED STATES AND DISTRICT OF COLUMBIA, 18 OR OVER AS OF DATE OF ENTRY, 
