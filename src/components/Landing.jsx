@@ -35,7 +35,7 @@ export default function SamsungMarketingContent() {
   
   <div className="grid gap-8 items-start justify-start mt-9">
     <div className="relative group">
-      <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+      <div className="absolute -inset-0.5 bg-gradient-to-r from-gray-300 to-white rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
       <RegisterButton />
     </div>
   </div>
