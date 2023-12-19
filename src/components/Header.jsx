@@ -11,7 +11,7 @@ const Header = () => {
                     </Link>
                 </div>
             </div>
-            <hr className=" relative mt-3 border-t-1 border-pink-600 opacity-50" />
+            <hr className=" relative mt-3 border-t-1 border-white opacity-50" />
         </div>
     );
 };

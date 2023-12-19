@@ -45,7 +45,7 @@ export default function SamsungMarketingContent() {
 </main>
 
 <footer className="container items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:space-y-0 bg-black">
-      <p className='text-sm text-gray-400 leading-snug text-justify'> NO PURCHASE NECESSARY. Void where prohibited. Samsung Galaxy Marketing Case Competition is sponsored by Samsung Electronics America, Inc. Open to college/university students currently enrolled in an accredited college or university pursuing an undergraduate or graduate degree, who reside in the 50 United States & D.C., 18 or older, and are willing to travel at their own expense to New York on dates surrounding 8/17/23-8/18/23. Begins 7:00 p.m. ET on 7/20/23 & ends 11:59 p.m. ET 7/30/23 & Register by 7/23/23. For official rules, visit <Link to="rules" className="text-purple-500 underline hover:text-purple-800">SamsungMarketingCase.com/rules.</Link></p>
+      <p className='text-sm text-gray-400 leading-snug text-justify'> NO PURCHASE NECESSARY. Void where prohibited. Samsung Galaxy Marketing Case Competition is sponsored by Samsung Electronics America, Inc. Open to college/university students currently enrolled in an accredited college or university pursuing an undergraduate or graduate degree, who reside in the 50 United States & D.C., 18 or older, and are willing to travel at their own expense to New York on dates surrounding 8/17/23-8/18/23. Begins 7:00 p.m. ET on 7/20/23 & ends 11:59 p.m. ET 7/30/23 & Register by 7/23/23. For official rules, visit <Link to="rules" className="text-blue-500 underline hover:text-blue-800">SamsungMarketingCase.com/rules.</Link></p>
   </footer>
 
 
