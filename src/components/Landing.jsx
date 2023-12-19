@@ -24,7 +24,7 @@ export default function SamsungMarketingContent() {
   </h1>
 </section>
     
-<main className="container px-6 py-8 bg-gray-900 bg-opacity-50 m-8 max-w-4xl">
+<main className="container px-6 py-8 bg-gray-900 bg-opacity-50 md:m-8 max-w-4xl">
   <h1 className="text-white-400 mb-8 text-left font-palanquin text-xl leading-relaxed">Introducing the Samsung Marketing Case Competition for college students of all majors.</h1>
   <ul className="text-white-400 pl-5 list-disc space-y-3 text-left text-lg font-palanquin leading-relaxed">
     {listItems.map((item, index) => <li key={index} className="text-xl leading-relaxed">{item}</li>)}
