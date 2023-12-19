@@ -1,5 +1,6 @@
 import React from 'react';
 import './formStyles.css';
+import Header from './Header';
 
 export default function RegistrationForm() {
   const mailchimpFormCode = `<div id="mc_embed_shell" class= "flex justify-center items-center">
@@ -25,14 +26,18 @@ export default function RegistrationForm() {
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[8]='MMERGE8';ftypes[8]='date';fnames[9]='MMERGE9';ftypes[9]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='SCHOOL';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='radio';fnames[7]='SUBMISSION';ftypes[7]='url';fnames[3]='ZIP';ftypes[3]='address';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
 `;
   return (
+    <>
+
+    <Header />
     
-    <div className="text-black">
+    <div className="text-black mt-8">
       <>
       <div dangerouslySetInnerHTML={{ __html: mailchimpFormCode }} />
       </>
       
      
     </div>
+    </>
     
   )
 }
