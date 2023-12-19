@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 export function RegisterButton() {
 
   return (
-    <Link to="/registration">
+    <Link to="/register">
     <button className="relative px-7 py-3 bg-black rounded-lg leading-none flex items-center">
       <span className="flex items-center space-x-5">
         <SVGIcon />
