@@ -19,7 +19,7 @@ export default function SamsungMarketingContent() {
 
 
 <section className='max-containers text-left mt-4 md:mt-16 max-w-xl'>
-  <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-300 to-pink-600 font-palanquin">
+  <h1 className="text-4xl font-bold bg-clip-text text-white font-palanquin">
     Channel Your Passion Into A Major Pitch Opportunity
   </h1>
 </section>
